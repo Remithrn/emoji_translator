@@ -16,6 +16,7 @@
       </h1>
       <form
         hx-post="/translate_to_emoji/"
+        hx-on::after-request="this.reset()"
         hx-target="#emoji-result"
         hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'
         hx-indicator="#loading-spinner"
