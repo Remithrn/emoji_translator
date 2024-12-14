@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+/* Ensure the body occupies the full height of the viewport */
+html,
+body {
+  height: 100%;
+  font-family: "Fredoka", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set the background image for the body */
+body {
+  background-image: url("../images/background.jpg"); /* Update with your image path */
+  background-size: cover; /* Makes the image cover the entire area */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+}

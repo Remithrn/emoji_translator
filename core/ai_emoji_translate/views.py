@@ -16,6 +16,7 @@ def translate_to_emoji(request):
         return HttpResponse("Only POST requests are allowed", status=405)
 
     try:
+        print("here")
         sentence = request.POST.get("sentence", "").strip()
 
         if not sentence:
